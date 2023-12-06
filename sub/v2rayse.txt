@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Surge
-# 创建时间：2023-12-06 12:36:13
+# 创建时间：2023-12-06 12:37:51
 # 使用模版：V2RaySE 默认模版
-# 节点数量：7
+# 节点数量：24
 ####################################
 
 [General]
@@ -29,25 +29,42 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 
 [Proxy]
 DIRECT = direct
-🇺🇸_US_美国->🇫🇷_FR_法国 = vmess,cp2.colacloud.site,2086,username=44a05463-181b-4fc7-b324-1fe6b37247f7,tls=false,vmess-aead=true,tls13=false,ws=true,ws-path=/sssddd,ws-headers=host:"cf-nls.colacloud.site",sni=cp2.colacloud.site,skip-cert-verify=true,tfo=false,udp-relay=false
-🇺🇸_US_美国_1 = ss,34.209.235.189,443,encrypt-method=aes-256-cfb,password=amazonskr05,tfo=false,udp-relay=false
-🇫🇷_FR_法国_1 = ss,135.125.172.153,443,encrypt-method=aes-256-cfb,password=asdKkaskJKfnsa,tfo=false,udp-relay=false
-🇺🇸_US_美国_2 = vmess,94.131.14.177,80,username=2c5fee13-f08b-4ba8-86db-27dd51cb9781,tls=false,vmess-aead=true,tls13=false,ws=true,ws-path=/vmess,ws-headers=host:"lt2-vmess.sshmax.xyz",sni=94.131.14.177,skip-cert-verify=true,tfo=false,udp-relay=false
-🇺🇸_US_美国->🇮🇷_IR_伊朗 = vmess,154.83.2.57,2053,username=ef9e887a-c26c-4cda-a731-1dbbc5263c77,tls=true,vmess-aead=true,tls13=false,ws=true,ws-path=/,ws-headers=host:"zUla.eSMAIlkOrEa.sHOp",sni=154.83.2.57,skip-cert-verify=true,tfo=false,udp-relay=false
-🇫🇷_FR_法国_2 = vmess,s1.19kala.co,443,username=5775de7e-0c2e-4e7c-8b9c-c48704d8facb,tls=true,vmess-aead=true,tls13=false,ws=true,ws-path=/OWTu4RMkF9V12oO5NLlQk,ws-headers=host:"s1.19kala.co",sni=s1.19kala.co,skip-cert-verify=true,tfo=false,udp-relay=false
-🇺🇸_US_美国_3 = vmess,104.21.94.251,80,username=c7421a39-020d-4a01-97ed-9eacbce0a7ca,tls=false,vmess-aead=true,tls13=false,ws=true,ws-path=/vmess,ws-headers=host:"de2.xv2ray.net",sni=104.21.94.251,skip-cert-verify=true,tfo=false,udp-relay=false
+印度|付费版推荐 翻墙.com = vmess,103.113.68.233,80,username=fddb3781-7e15-4731-a933-94db110b4bbc,tls=false,vmess-aead=true,tls13=false,ws=true,ws-path=/vmess,sni=103.113.68.233,skip-cert-verify=true,tfo=false,udp-relay=false
+英国|浏览器输入 翻墙.com = ss,service.ouluyun9803.com,50002,encrypt-method=chacha20-ietf-poly1305,password=12d29bd8-3461-42c8-81af-897cf3dc15b0,tfo=false,udp-relay=false
+美国|低价实惠 翻墙.com = vmess,95.164.46.154,8080,username=431fda16-e0f8-4884-b4fd-965f03f86471,tls=false,vmess-aead=true,tls13=false,ws=true,ws-path=/vmess,sni=95.164.46.154,skip-cert-verify=true,tfo=false,udp-relay=false
+日本KT|@ripaojiedian = ss,139.227.182.207,10013,encrypt-method=aes-128-gcm,password=g12sQi#ss#&1,obfs=http,tfo=false,udp-relay=false
+日本KT2|@ripaojiedian = ss,139.227.182.207,10016,encrypt-method=aes-128-gcm,password=g12sQi#ss#&1,obfs=http,tfo=false,udp-relay=false
+香港KT1|@ripaojiedian = ss,47.243.195.27,80,encrypt-method=aes-128-gcm,password=a-wym4ovY4Yw,obfs=http,tfo=false,udp-relay=false
+香港K|浏览器输入 翻墙.com = ss,1.65.139.94,443,encrypt-method=aes-128-gcm,password=a-wym4ovY4Yw,obfs=http,tfo=false,udp-relay=false
+韩国2|@ripaojiedian = ss,service.ouluyun9803.com,26667,encrypt-method=chacha20-ietf-poly1305,password=12d29bd8-3461-42c8-81af-897cf3dc15b0,tfo=false,udp-relay=false
+新加坡3|浏览器输入 翻墙.com = ss,service.ouluyun9803.com,20009,encrypt-method=chacha20-ietf-poly1305,password=12d29bd8-3461-42c8-81af-897cf3dc15b0,tfo=false,udp-relay=false
+香港3|@ripaojiedian = ss,service.ouluyun9803.com,20001,encrypt-method=chacha20-ietf-poly1305,password=12d29bd8-3461-42c8-81af-897cf3dc15b0,tfo=false,udp-relay=false
+台湾|浏览器输入 翻墙.com = trojan,tw2.9527daishu.tk,17787,password=dae5ec5e-5c37-4e37-ad57-1056a6132b5b,skip-cert-verify=true,sni=data.52daishu.life,tfo=false,udp-relay=false
+日本|@ripaojiedian = ss,service.ouluyun9803.com,50001,encrypt-method=chacha20-ietf-poly1305,password=12d29bd8-3461-42c8-81af-897cf3dc15b0,tfo=false,udp-relay=false
+德国|浏览器输入 翻墙.com = vmess,de1-vmess.greenssh.xyz,80,username=12612b4e-e426-4b7c-84bd-4a02850abb1e,tls=false,vmess-aead=true,tls13=false,ws=true,ws-path=/vmess,sni=de1-vmess.greenssh.xyz,skip-cert-verify=true,tfo=false,udp-relay=false
+台湾3|@ripaojiedian = ss,wtw1000mline004.chilines.club,443,encrypt-method=chacha20-ietf-poly1305,password=4d1e8cd03847,obfs=http,obfs-host=wtw1000mline004.chilines.club,tfo=false,udp-relay=false
+美国5|频道:@ripaojiedian = ss,service.ouluyun9803.com,20003,encrypt-method=chacha20-ietf-poly1305,password=12d29bd8-3461-42c8-81af-897cf3dc15b0,tfo=false,udp-relay=false
+日本特殊|浏览器输入 翻墙.com = ss,18.176.61.138,443,encrypt-method=aes-256-cfb,password=amazonskr05,tfo=false,udp-relay=false
+首尔特殊|浏览器输入 翻墙.com = ss,43.201.83.172,443,encrypt-method=aes-256-cfb,password=amazonskr05,tfo=false,udp-relay=false
+日本特殊|@ripaojiedian = ss,43.206.229.73,443,encrypt-method=aes-256-cfb,password=amazonskr05,tfo=false,udp-relay=false
+新加坡特殊|@ripaojiedian = ss,13.250.60.49,443,encrypt-method=aes-256-cfb,password=amazonskr05,tfo=false,udp-relay=false
+狮城R|浏览器输入 翻墙.com = external,exec=/usr/bin/ssr-local,args=-1,args=1080,args=-s,args=cm03.newcome.xyz,args=-p,args=6702,args=-m,args=chacha20-ietf,args=-k,args=jFa4F1,args=-o,args=plain,args=-O,args=auth_aes128_sha1,local-port=1080,addresses=cm03.newcome.xyz,tfo=false,udp-relay=false
+日本2|浏览器输入 翻墙.com = trojan,111.47.212.119,20059,password=e4a4d260-6441-3698-94c2-61d966f0dc10,skip-cert-verify=true,sni=x59.flybar.work,tfo=false,udp-relay=false
+台湾2|@ripaojiedian = vmess,b22.ntbq.dynu.net,443,username=28e08966-170c-4b59-8756-14dfad41157a,tls=true,vmess-aead=true,tls13=false,ws=true,ws-path=/b22,ws-headers=host:"b22.ntbq.dynu.net",sni=b22.ntbq.dynu.net,skip-cert-verify=true,tfo=false,udp-relay=false
+韩国|@ripaojiedian = vmess,ser.yongdong.xyz,20026,username=d60442cf-4942-4b22-868e-97b96e564709,tls=false,vmess-aead=true,tls13=false,ws=true,ws-path=/yongdong,ws-headers=host:"yongdong.xyz",sni=ser.yongdong.xyz,skip-cert-verify=true,tfo=false,udp-relay=false
+香港2|@ripaojiedian = trojan,hk2.9527daishu.tk,17702,password=dae5ec5e-5c37-4e37-ad57-1056a6132b5b,skip-cert-verify=true,sni=data.52daishu.life,tfo=false,udp-relay=false
 
 [Proxy Group]
-🚀 节点选择 = select,♻️ 自动选择,DIRECT,🇺🇸_US_美国->🇫🇷_FR_法国,🇺🇸_US_美国_1,🇫🇷_FR_法国_1,🇺🇸_US_美国_2,🇺🇸_US_美国->🇮🇷_IR_伊朗,🇫🇷_FR_法国_2,🇺🇸_US_美国_3
-♻️ 自动选择 = url-test,🇺🇸_US_美国->🇫🇷_FR_法国,🇺🇸_US_美国_1,🇫🇷_FR_法国_1,🇺🇸_US_美国_2,🇺🇸_US_美国->🇮🇷_IR_伊朗,🇫🇷_FR_法国_2,🇺🇸_US_美国_3,url = http://www.gstatic.com/generate_204,interval = 300,tolerance = 50
-🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,🇺🇸_US_美国->🇫🇷_FR_法国,🇺🇸_US_美国_1,🇫🇷_FR_法国_1,🇺🇸_US_美国_2,🇺🇸_US_美国->🇮🇷_IR_伊朗,🇫🇷_FR_法国_2,🇺🇸_US_美国_3
-📲 电报信息 = select,🚀 节点选择,🎯 全球直连,🇺🇸_US_美国->🇫🇷_FR_法国,🇺🇸_US_美国_1,🇫🇷_FR_法国_1,🇺🇸_US_美国_2,🇺🇸_US_美国->🇮🇷_IR_伊朗,🇫🇷_FR_法国_2,🇺🇸_US_美国_3
-Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,🇺🇸_US_美国->🇫🇷_FR_法国,🇺🇸_US_美国_1,🇫🇷_FR_法国_1,🇺🇸_US_美国_2,🇺🇸_US_美国->🇮🇷_IR_伊朗,🇫🇷_FR_法国_2,🇺🇸_US_美国_3
-🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,🇺🇸_US_美国->🇫🇷_FR_法国,🇺🇸_US_美国_1,🇫🇷_FR_法国_1,🇺🇸_US_美国_2,🇺🇸_US_美国->🇮🇷_IR_伊朗,🇫🇷_FR_法国_2,🇺🇸_US_美国_3
+🚀 节点选择 = select,♻️ 自动选择,DIRECT,印度|付费版推荐 翻墙.com,英国|浏览器输入 翻墙.com,美国|低价实惠 翻墙.com,日本KT|@ripaojiedian,日本KT2|@ripaojiedian,香港KT1|@ripaojiedian,香港K|浏览器输入 翻墙.com,韩国2|@ripaojiedian,新加坡3|浏览器输入 翻墙.com,香港3|@ripaojiedian,台湾|浏览器输入 翻墙.com,日本|@ripaojiedian,德国|浏览器输入 翻墙.com,台湾3|@ripaojiedian,美国5|频道:@ripaojiedian,日本特殊|浏览器输入 翻墙.com,首尔特殊|浏览器输入 翻墙.com,日本特殊|@ripaojiedian,新加坡特殊|@ripaojiedian,狮城R|浏览器输入 翻墙.com,日本2|浏览器输入 翻墙.com,台湾2|@ripaojiedian,韩国|@ripaojiedian,香港2|@ripaojiedian
+♻️ 自动选择 = url-test,印度|付费版推荐 翻墙.com,英国|浏览器输入 翻墙.com,美国|低价实惠 翻墙.com,日本KT|@ripaojiedian,日本KT2|@ripaojiedian,香港KT1|@ripaojiedian,香港K|浏览器输入 翻墙.com,韩国2|@ripaojiedian,新加坡3|浏览器输入 翻墙.com,香港3|@ripaojiedian,台湾|浏览器输入 翻墙.com,日本|@ripaojiedian,德国|浏览器输入 翻墙.com,台湾3|@ripaojiedian,美国5|频道:@ripaojiedian,日本特殊|浏览器输入 翻墙.com,首尔特殊|浏览器输入 翻墙.com,日本特殊|@ripaojiedian,新加坡特殊|@ripaojiedian,狮城R|浏览器输入 翻墙.com,日本2|浏览器输入 翻墙.com,台湾2|@ripaojiedian,韩国|@ripaojiedian,香港2|@ripaojiedian,url = http://www.gstatic.com/generate_204,interval = 300,tolerance = 50
+🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,印度|付费版推荐 翻墙.com,英国|浏览器输入 翻墙.com,美国|低价实惠 翻墙.com,日本KT|@ripaojiedian,日本KT2|@ripaojiedian,香港KT1|@ripaojiedian,香港K|浏览器输入 翻墙.com,韩国2|@ripaojiedian,新加坡3|浏览器输入 翻墙.com,香港3|@ripaojiedian,台湾|浏览器输入 翻墙.com,日本|@ripaojiedian,德国|浏览器输入 翻墙.com,台湾3|@ripaojiedian,美国5|频道:@ripaojiedian,日本特殊|浏览器输入 翻墙.com,首尔特殊|浏览器输入 翻墙.com,日本特殊|@ripaojiedian,新加坡特殊|@ripaojiedian,狮城R|浏览器输入 翻墙.com,日本2|浏览器输入 翻墙.com,台湾2|@ripaojiedian,韩国|@ripaojiedian,香港2|@ripaojiedian
+📲 电报信息 = select,🚀 节点选择,🎯 全球直连,印度|付费版推荐 翻墙.com,英国|浏览器输入 翻墙.com,美国|低价实惠 翻墙.com,日本KT|@ripaojiedian,日本KT2|@ripaojiedian,香港KT1|@ripaojiedian,香港K|浏览器输入 翻墙.com,韩国2|@ripaojiedian,新加坡3|浏览器输入 翻墙.com,香港3|@ripaojiedian,台湾|浏览器输入 翻墙.com,日本|@ripaojiedian,德国|浏览器输入 翻墙.com,台湾3|@ripaojiedian,美国5|频道:@ripaojiedian,日本特殊|浏览器输入 翻墙.com,首尔特殊|浏览器输入 翻墙.com,日本特殊|@ripaojiedian,新加坡特殊|@ripaojiedian,狮城R|浏览器输入 翻墙.com,日本2|浏览器输入 翻墙.com,台湾2|@ripaojiedian,韩国|@ripaojiedian,香港2|@ripaojiedian
+Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,印度|付费版推荐 翻墙.com,英国|浏览器输入 翻墙.com,美国|低价实惠 翻墙.com,日本KT|@ripaojiedian,日本KT2|@ripaojiedian,香港KT1|@ripaojiedian,香港K|浏览器输入 翻墙.com,韩国2|@ripaojiedian,新加坡3|浏览器输入 翻墙.com,香港3|@ripaojiedian,台湾|浏览器输入 翻墙.com,日本|@ripaojiedian,德国|浏览器输入 翻墙.com,台湾3|@ripaojiedian,美国5|频道:@ripaojiedian,日本特殊|浏览器输入 翻墙.com,首尔特殊|浏览器输入 翻墙.com,日本特殊|@ripaojiedian,新加坡特殊|@ripaojiedian,狮城R|浏览器输入 翻墙.com,日本2|浏览器输入 翻墙.com,台湾2|@ripaojiedian,韩国|@ripaojiedian,香港2|@ripaojiedian
+🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,印度|付费版推荐 翻墙.com,英国|浏览器输入 翻墙.com,美国|低价实惠 翻墙.com,日本KT|@ripaojiedian,日本KT2|@ripaojiedian,香港KT1|@ripaojiedian,香港K|浏览器输入 翻墙.com,韩国2|@ripaojiedian,新加坡3|浏览器输入 翻墙.com,香港3|@ripaojiedian,台湾|浏览器输入 翻墙.com,日本|@ripaojiedian,德国|浏览器输入 翻墙.com,台湾3|@ripaojiedian,美国5|频道:@ripaojiedian,日本特殊|浏览器输入 翻墙.com,首尔特殊|浏览器输入 翻墙.com,日本特殊|@ripaojiedian,新加坡特殊|@ripaojiedian,狮城R|浏览器输入 翻墙.com,日本2|浏览器输入 翻墙.com,台湾2|@ripaojiedian,韩国|@ripaojiedian,香港2|@ripaojiedian
 🎯 全球直连 = select,DIRECT,🚀 节点选择,♻️ 自动选择
 🛑 全球拦截 = select,REJECT,DIRECT
 🍃 应用净化 = select,REJECT,DIRECT
-🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🇺🇸_US_美国->🇫🇷_FR_法国,🇺🇸_US_美国_1,🇫🇷_FR_法国_1,🇺🇸_US_美国_2,🇺🇸_US_美国->🇮🇷_IR_伊朗,🇫🇷_FR_法国_2,🇺🇸_US_美国_3
+🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,印度|付费版推荐 翻墙.com,英国|浏览器输入 翻墙.com,美国|低价实惠 翻墙.com,日本KT|@ripaojiedian,日本KT2|@ripaojiedian,香港KT1|@ripaojiedian,香港K|浏览器输入 翻墙.com,韩国2|@ripaojiedian,新加坡3|浏览器输入 翻墙.com,香港3|@ripaojiedian,台湾|浏览器输入 翻墙.com,日本|@ripaojiedian,德国|浏览器输入 翻墙.com,台湾3|@ripaojiedian,美国5|频道:@ripaojiedian,日本特殊|浏览器输入 翻墙.com,首尔特殊|浏览器输入 翻墙.com,日本特殊|@ripaojiedian,新加坡特殊|@ripaojiedian,狮城R|浏览器输入 翻墙.com,日本2|浏览器输入 翻墙.com,台湾2|@ripaojiedian,韩国|@ripaojiedian,香港2|@ripaojiedian
 
 [Rule]
 # 本地/局域网地址
