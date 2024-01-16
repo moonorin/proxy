@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Surge
-# 创建时间：2024-01-16 09:52:31
+# 创建时间：2024-01-16 09:54:28
 # 使用模版：V2RaySE 默认模版
-# 节点数量：22
+# 节点数量：6
 ####################################
 
 [General]
@@ -29,40 +29,24 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 
 [Proxy]
 DIRECT = direct
-台湾KT|@ripaojiedian = ss,122.118.171.66,443,encrypt-method=aes-128-gcm,password=oiwym4ovI4Yb,obfs=http,tfo=false,udp-relay=false
-香港KT|@ripaojiedian = ss,1.65.139.54,443,encrypt-method=aes-128-gcm,password=a-wym4ovY4Yw,obfs=http,tfo=false,udp-relay=false
-香港KT2|@ripaojiedian = ss,8.217.217.138,80,encrypt-method=aes-128-gcm,password=a-wym4ovY4Yw,obfs=http,tfo=false,udp-relay=false
-香港2|@ripaojiedian = vmess,38.147.191.185,10241,username=e820d6f7-57ef-4575-99da-bcd7d318c742,tls=false,vmess-aead=true,tls13=false,sni=38.147.191.185,skip-cert-verify=true,tfo=false,udp-relay=false
-香港|@ripaojiedian = vmess,in06.myqq2024.org,63010,username=89387c02-4f9f-33fc-8c50-a9941ed226be,tls=false,vmess-aead=true,tls13=false,sni=in06.myqq2024.org,skip-cert-verify=true,tfo=false,udp-relay=false
-香港3|@ripaojiedian = trojan,south.eeeeeef998.buzz,11004,password=7084bed5-740d-42fc-bc30-76d2ffbb66b4,skip-cert-verify=true,sni=data.steamdownload.top,tfo=false,udp-relay=false
-香港5|@ripaojiedian = vmess,23.225.133.79,41698,username=0f2b40f5-4233-4280-b021-75afb1a62849,tls=false,vmess-aead=true,tls13=false,ws=true,ws-path=/argox-vm?ed=2048,ws-headers=host:"hk123.5201314.cfd",sni=23.225.133.79,skip-cert-verify=true,tfo=false,udp-relay=false
-香港4|@ripaojiedian = vmess,cfcdn2.sanfencdn9.com,2052,username=cd2e0bc7-b25d-4a99-b8d6-a80570db994a,tls=false,vmess-aead=true,tls13=false,ws=true,ws-path=/video/34kKXbLM,ws-headers=host:"yvhnbevxhk1.yofnhkfc.xyz",sni=cfcdn2.sanfencdn9.com,skip-cert-verify=true,tfo=false,udp-relay=false
-日本2|@ripaojiedian = vmess,cfcdn3.sanfencdn9.com,2052,username=cd2e0bc7-b25d-4a99-b8d6-a80570db994a,tls=false,vmess-aead=true,tls13=false,ws=true,ws-path=/video/9TfVEyku,ws-headers=host:"wtywwcrzjp5.yofnhkfc.xyz",sni=cfcdn3.sanfencdn9.com,skip-cert-verify=true,tfo=false,udp-relay=false
-日本|@ripaojiedian = ss,gtm.ktmwan.com,27251,encrypt-method=chacha20-ietf-poly1305,password=c0c85654-646c-48f8-9141-ba9b70d0c928,tfo=false,udp-relay=false
-台湾2|@ripaojiedian = vmess,nb22.ntbq.dynu.net,12002,username=14327f86-7734-4d5b-9561-b58ad95cbcfb,tls=false,vmess-aead=true,tls13=false,sni=nb22.ntbq.dynu.net,skip-cert-verify=true,tfo=false,udp-relay=false
-韩国|@ripaojiedian = vmess,161.81.114.97,26625,username=2c12d9ea-eb5a-4c73-beae-d9979801c27c,tls=false,vmess-aead=true,tls13=false,ws=true,ws-path=/argox-vm?ed=2048,ws-headers=host:"kpfenxiang.5201314.cfd",sni=161.81.114.97,skip-cert-verify=true,tfo=false,udp-relay=false
-韩国2|@ripaojiedian = vmess,db1e3fa2-9236-43f2-835a-4e98d32a0790.xn--yusw35d.xyz,35661,username=54b5b3de-bc8c-478b-bd1b-ec86c9130897,tls=false,vmess-aead=true,tls13=false,ws=true,ws-path=/?ed=2048,ws-headers=host:"baidu.com",sni=db1e3fa2-9236-43f2-835a-4e98d32a0790.xn--yusw35d.xyz,skip-cert-verify=true,tfo=false,udp-relay=false
-韩国3|@ripaojiedian = ss,any.hmbiplc-02.com,49475,encrypt-method=aes-128-gcm,password=c013ca2a60494f5da25fc030aace0b55,tfo=false,udp-relay=false
-新加坡|@ripaojiedian = vmess,ml1.333210.xyz,40000,username=892e4ff3-f8bb-42ac-9bd5-e103f235fc78,tls=false,vmess-aead=true,tls13=false,ws=true,ws-path=/,ws-headers=host:"down.dingtalk.com",sni=ml1.333210.xyz,skip-cert-verify=true,tfo=false,udp-relay=false
-新加坡2|@ripaojiedian = ss,gtm.ktmwan.com,27250,encrypt-method=chacha20-ietf-poly1305,password=c0c85654-646c-48f8-9141-ba9b70d0c928,tfo=false,udp-relay=false
-美国4|@ripaojiedian = trojan,los16.ttddd.xyz,443,password=27876_t7d7f4e3f,skip-cert-verify=true,sni=los16.ttddd.xyz,tfo=false,udp-relay=false
-美国3|@ripaojiedian = ss,212.102.47.198,443,encrypt-method=aes-128-cfb,password=shadowsocks,tfo=false,udp-relay=false
-狮城特殊|@ripaojiedian = ss,54.64.183.76,443,encrypt-method=aes-256-cfb,password=amazonskr05,tfo=false,udp-relay=false
-狮城特殊2|@ripaojiedian = ss,43.207.80.128,443,encrypt-method=aes-256-cfb,password=amazonskr05,tfo=false,udp-relay=false
-日本特殊|@ripaojiedian = ss,54.251.150.231,443,encrypt-method=aes-256-cfb,password=amazonskr05,tfo=false,udp-relay=false
-韩国特殊|@ripaojiedian = ss,43.201.116.29,443,encrypt-method=aes-256-cfb,password=amazonskr05,tfo=false,udp-relay=false
+🇫🇷 法国1t-v2free机场免费节点 = trojan,fr1t-display.eurodns.tk,443,password=15e77a40-2ee4-3dca-8302-18b467173d4b,skip-cert-verify=true,ws=true,ws-path=/3690dc09-26c3-57ab-b9cf-836523956698,tfo=false,udp-relay=false
+🇫🇷 法国2t-v2free机场免费节点 = trojan,fr2t-status.eurodns.tk,443,password=15e77a40-2ee4-3dca-8302-18b467173d4b,skip-cert-verify=true,ws=true,ws-path=/3690dc09-26c3-57ab-b9cf-836523956698,tfo=false,udp-relay=false
+🇺🇸 美国1t-v2free机场免费节点 = trojan,us1t.eurodns.tk,443,password=15e77a40-2ee4-3dca-8302-18b467173d4b,skip-cert-verify=true,ws=true,ws-path=/3690dc09-26c3-57ab-b9cf-836523956698,tfo=false,udp-relay=false
+🇺🇸 美国2t-v2free机场免费节点 = trojan,us2t-videos.eurodns.tk,443,password=15e77a40-2ee4-3dca-8302-18b467173d4b,skip-cert-verify=true,ws=true,ws-path=/3690dc09-26c3-57ab-b9cf-836523956698,tfo=false,udp-relay=false
+🇺🇸 美国3t-v2free机场免费节点 = trojan,us3t.eurodns.tk,443,password=15e77a40-2ee4-3dca-8302-18b467173d4b,skip-cert-verify=true,ws=true,ws-path=/3690dc09-26c3-57ab-b9cf-836523956698,tfo=false,udp-relay=false
+🇺🇸 美国4t-v2free机场免费节点 = trojan,us4t-block.eurodns.tk,443,password=15e77a40-2ee4-3dca-8302-18b467173d4b,skip-cert-verify=true,ws=true,ws-path=/3690dc09-26c3-57ab-b9cf-836523956698,tfo=false,udp-relay=false
 
 [Proxy Group]
-🚀 节点选择 = select,♻️ 自动选择,DIRECT,台湾KT|@ripaojiedian,香港KT|@ripaojiedian,香港KT2|@ripaojiedian,香港2|@ripaojiedian,香港|@ripaojiedian,香港3|@ripaojiedian,香港5|@ripaojiedian,香港4|@ripaojiedian,日本2|@ripaojiedian,日本|@ripaojiedian,台湾2|@ripaojiedian,韩国|@ripaojiedian,韩国2|@ripaojiedian,韩国3|@ripaojiedian,新加坡|@ripaojiedian,新加坡2|@ripaojiedian,美国4|@ripaojiedian,美国3|@ripaojiedian,狮城特殊|@ripaojiedian,狮城特殊2|@ripaojiedian,日本特殊|@ripaojiedian,韩国特殊|@ripaojiedian
-♻️ 自动选择 = url-test,台湾KT|@ripaojiedian,香港KT|@ripaojiedian,香港KT2|@ripaojiedian,香港2|@ripaojiedian,香港|@ripaojiedian,香港3|@ripaojiedian,香港5|@ripaojiedian,香港4|@ripaojiedian,日本2|@ripaojiedian,日本|@ripaojiedian,台湾2|@ripaojiedian,韩国|@ripaojiedian,韩国2|@ripaojiedian,韩国3|@ripaojiedian,新加坡|@ripaojiedian,新加坡2|@ripaojiedian,美国4|@ripaojiedian,美国3|@ripaojiedian,狮城特殊|@ripaojiedian,狮城特殊2|@ripaojiedian,日本特殊|@ripaojiedian,韩国特殊|@ripaojiedian,url = http://www.gstatic.com/generate_204,interval = 300,tolerance = 50
-🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,台湾KT|@ripaojiedian,香港KT|@ripaojiedian,香港KT2|@ripaojiedian,香港2|@ripaojiedian,香港|@ripaojiedian,香港3|@ripaojiedian,香港5|@ripaojiedian,香港4|@ripaojiedian,日本2|@ripaojiedian,日本|@ripaojiedian,台湾2|@ripaojiedian,韩国|@ripaojiedian,韩国2|@ripaojiedian,韩国3|@ripaojiedian,新加坡|@ripaojiedian,新加坡2|@ripaojiedian,美国4|@ripaojiedian,美国3|@ripaojiedian,狮城特殊|@ripaojiedian,狮城特殊2|@ripaojiedian,日本特殊|@ripaojiedian,韩国特殊|@ripaojiedian
-📲 电报信息 = select,🚀 节点选择,🎯 全球直连,台湾KT|@ripaojiedian,香港KT|@ripaojiedian,香港KT2|@ripaojiedian,香港2|@ripaojiedian,香港|@ripaojiedian,香港3|@ripaojiedian,香港5|@ripaojiedian,香港4|@ripaojiedian,日本2|@ripaojiedian,日本|@ripaojiedian,台湾2|@ripaojiedian,韩国|@ripaojiedian,韩国2|@ripaojiedian,韩国3|@ripaojiedian,新加坡|@ripaojiedian,新加坡2|@ripaojiedian,美国4|@ripaojiedian,美国3|@ripaojiedian,狮城特殊|@ripaojiedian,狮城特殊2|@ripaojiedian,日本特殊|@ripaojiedian,韩国特殊|@ripaojiedian
-Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,台湾KT|@ripaojiedian,香港KT|@ripaojiedian,香港KT2|@ripaojiedian,香港2|@ripaojiedian,香港|@ripaojiedian,香港3|@ripaojiedian,香港5|@ripaojiedian,香港4|@ripaojiedian,日本2|@ripaojiedian,日本|@ripaojiedian,台湾2|@ripaojiedian,韩国|@ripaojiedian,韩国2|@ripaojiedian,韩国3|@ripaojiedian,新加坡|@ripaojiedian,新加坡2|@ripaojiedian,美国4|@ripaojiedian,美国3|@ripaojiedian,狮城特殊|@ripaojiedian,狮城特殊2|@ripaojiedian,日本特殊|@ripaojiedian,韩国特殊|@ripaojiedian
-🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,台湾KT|@ripaojiedian,香港KT|@ripaojiedian,香港KT2|@ripaojiedian,香港2|@ripaojiedian,香港|@ripaojiedian,香港3|@ripaojiedian,香港5|@ripaojiedian,香港4|@ripaojiedian,日本2|@ripaojiedian,日本|@ripaojiedian,台湾2|@ripaojiedian,韩国|@ripaojiedian,韩国2|@ripaojiedian,韩国3|@ripaojiedian,新加坡|@ripaojiedian,新加坡2|@ripaojiedian,美国4|@ripaojiedian,美国3|@ripaojiedian,狮城特殊|@ripaojiedian,狮城特殊2|@ripaojiedian,日本特殊|@ripaojiedian,韩国特殊|@ripaojiedian
+🚀 节点选择 = select,♻️ 自动选择,DIRECT,🇫🇷 法国1t-v2free机场免费节点,🇫🇷 法国2t-v2free机场免费节点,🇺🇸 美国1t-v2free机场免费节点,🇺🇸 美国2t-v2free机场免费节点,🇺🇸 美国3t-v2free机场免费节点,🇺🇸 美国4t-v2free机场免费节点
+♻️ 自动选择 = url-test,🇫🇷 法国1t-v2free机场免费节点,🇫🇷 法国2t-v2free机场免费节点,🇺🇸 美国1t-v2free机场免费节点,🇺🇸 美国2t-v2free机场免费节点,🇺🇸 美国3t-v2free机场免费节点,🇺🇸 美国4t-v2free机场免费节点,url = http://www.gstatic.com/generate_204,interval = 300,tolerance = 50
+🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,🇫🇷 法国1t-v2free机场免费节点,🇫🇷 法国2t-v2free机场免费节点,🇺🇸 美国1t-v2free机场免费节点,🇺🇸 美国2t-v2free机场免费节点,🇺🇸 美国3t-v2free机场免费节点,🇺🇸 美国4t-v2free机场免费节点
+📲 电报信息 = select,🚀 节点选择,🎯 全球直连,🇫🇷 法国1t-v2free机场免费节点,🇫🇷 法国2t-v2free机场免费节点,🇺🇸 美国1t-v2free机场免费节点,🇺🇸 美国2t-v2free机场免费节点,🇺🇸 美国3t-v2free机场免费节点,🇺🇸 美国4t-v2free机场免费节点
+Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,🇫🇷 法国1t-v2free机场免费节点,🇫🇷 法国2t-v2free机场免费节点,🇺🇸 美国1t-v2free机场免费节点,🇺🇸 美国2t-v2free机场免费节点,🇺🇸 美国3t-v2free机场免费节点,🇺🇸 美国4t-v2free机场免费节点
+🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,🇫🇷 法国1t-v2free机场免费节点,🇫🇷 法国2t-v2free机场免费节点,🇺🇸 美国1t-v2free机场免费节点,🇺🇸 美国2t-v2free机场免费节点,🇺🇸 美国3t-v2free机场免费节点,🇺🇸 美国4t-v2free机场免费节点
 🎯 全球直连 = select,DIRECT,🚀 节点选择,♻️ 自动选择
 🛑 全球拦截 = select,REJECT,DIRECT
 🍃 应用净化 = select,REJECT,DIRECT
-🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,台湾KT|@ripaojiedian,香港KT|@ripaojiedian,香港KT2|@ripaojiedian,香港2|@ripaojiedian,香港|@ripaojiedian,香港3|@ripaojiedian,香港5|@ripaojiedian,香港4|@ripaojiedian,日本2|@ripaojiedian,日本|@ripaojiedian,台湾2|@ripaojiedian,韩国|@ripaojiedian,韩国2|@ripaojiedian,韩国3|@ripaojiedian,新加坡|@ripaojiedian,新加坡2|@ripaojiedian,美国4|@ripaojiedian,美国3|@ripaojiedian,狮城特殊|@ripaojiedian,狮城特殊2|@ripaojiedian,日本特殊|@ripaojiedian,韩国特殊|@ripaojiedian
+🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🇫🇷 法国1t-v2free机场免费节点,🇫🇷 法国2t-v2free机场免费节点,🇺🇸 美国1t-v2free机场免费节点,🇺🇸 美国2t-v2free机场免费节点,🇺🇸 美国3t-v2free机场免费节点,🇺🇸 美国4t-v2free机场免费节点
 
 [Rule]
 # 本地/局域网地址
