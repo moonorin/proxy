@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Surge
-# 创建时间：2024-03-07 15:41:26
+# 创建时间：2024-03-07 15:45:47
 # 使用模版：V2RaySE 默认模版
-# 节点数量：15
+# 节点数量：2
 ####################################
 
 [General]
@@ -29,33 +29,20 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 
 [Proxy]
 DIRECT = direct
-www.dongtaiwang.com 美国_1 = vmess,23.227.38.120,8080,username=969f1909-c0d3-4c30-813d-3aec5c838b7d,tls=false,vmess-aead=true,tls13=false,ws=true,ws-path=/1IKYjV0r/,ws-headers=host:"dongtaiwang17.dtku47.xyz",sni=23.227.38.120,skip-cert-verify=true,tfo=false,udp-relay=false
-www.dongtaiwang.com 美国_2 = external,exec=/usr/bin/ssr-local,args=-1,args=1080,args=-s,args=dongtaiwang5.com,args=-p,args=11111,args=-m,args=dummy,args=-k,args=dongtaiwang.com,args=-o,args=plain,args=-O,args=auth_chain_a,local-port=1080,addresses=dongtaiwang5.com,tfo=false,udp-relay=false
+www.dongtaiwang.com 美国 = vmess,23.227.38.120,8080,username=969f1909-c0d3-4c30-813d-3aec5c838b7d,tls=false,vmess-aead=true,tls13=false,ws=true,ws-path=/1IKYjV0r/,ws-headers=host:"dongtaiwang17.dtku47.xyz",sni=23.227.38.120,skip-cert-verify=true,tfo=false,udp-relay=false
 www.dongtaiwang.com 洛杉矶 = ss,74.63.233.73,12300,encrypt-method=aes-256-gcm,password=dongtaiwang.com,tfo=false,udp-relay=false
-俄罗斯A = external,exec=/usr/bin/ssr-local,args=-1,args=1081,args=-s,args=46.17.46.83,args=-p,args=12305,args=-m,args=dummy,args=-k,args=lncn.org 8jy,args=-o,args=plain,args=-O,args=origin,local-port=1081,addresses=46.17.46.83,tfo=false,udp-relay=false
-俄罗斯B = external,exec=/usr/bin/ssr-local,args=-1,args=1082,args=-s,args=195.133.11.8,args=-p,args=12305,args=-m,args=dummy,args=-k,args=lncn.org 8jy,args=-o,args=plain,args=-O,args=origin,local-port=1082,addresses=195.133.11.8,tfo=false,udp-relay=false
-俄罗斯C = external,exec=/usr/bin/ssr-local,args=-1,args=1083,args=-s,args=45.8.159.77,args=-p,args=12305,args=-m,args=dummy,args=-k,args=lncn.org 8jy,args=-o,args=plain,args=-O,args=origin,local-port=1083,addresses=45.8.159.77,tfo=false,udp-relay=false
-俄罗斯D = external,exec=/usr/bin/ssr-local,args=-1,args=1084,args=-s,args=45.8.158.11,args=-p,args=12305,args=-m,args=dummy,args=-k,args=lncn.org 8jy,args=-o,args=plain,args=-O,args=origin,local-port=1084,addresses=45.8.158.11,tfo=false,udp-relay=false
-俄罗斯E = external,exec=/usr/bin/ssr-local,args=-1,args=1085,args=-s,args=46.29.162.72,args=-p,args=12305,args=-m,args=dummy,args=-k,args=lncn.org 8jy,args=-o,args=plain,args=-O,args=origin,local-port=1085,addresses=46.29.162.72,tfo=false,udp-relay=false
-俄罗斯F = external,exec=/usr/bin/ssr-local,args=-1,args=1086,args=-s,args=45.89.229.158,args=-p,args=12305,args=-m,args=dummy,args=-k,args=lncn.org 8jy,args=-o,args=plain,args=-O,args=origin,local-port=1086,addresses=45.89.229.158,tfo=false,udp-relay=false
-俄罗斯G = external,exec=/usr/bin/ssr-local,args=-1,args=1087,args=-s,args=45.8.158.182,args=-p,args=12305,args=-m,args=dummy,args=-k,args=lncn.org 8jy,args=-o,args=plain,args=-O,args=origin,local-port=1087,addresses=45.8.158.182,tfo=false,udp-relay=false
-俄罗斯H = external,exec=/usr/bin/ssr-local,args=-1,args=1088,args=-s,args=45.130.146.33,args=-p,args=12305,args=-m,args=dummy,args=-k,args=lncn.org 8jy,args=-o,args=plain,args=-O,args=origin,local-port=1088,addresses=45.130.146.33,tfo=false,udp-relay=false
-俄罗斯I = external,exec=/usr/bin/ssr-local,args=-1,args=1089,args=-s,args=45.8.159.66,args=-p,args=12305,args=-m,args=dummy,args=-k,args=lncn.org 8jy,args=-o,args=plain,args=-O,args=origin,local-port=1089,addresses=45.8.159.66,tfo=false,udp-relay=false
-俄罗斯J = external,exec=/usr/bin/ssr-local,args=-1,args=1090,args=-s,args=45.89.228.200,args=-p,args=12305,args=-m,args=dummy,args=-k,args=lncn.org 8jy,args=-o,args=plain,args=-O,args=origin,local-port=1090,addresses=45.89.228.200,tfo=false,udp-relay=false
-俄罗斯K = external,exec=/usr/bin/ssr-local,args=-1,args=1091,args=-s,args=176.32.38.116,args=-p,args=12305,args=-m,args=dummy,args=-k,args=lncn.org 8jy,args=-o,args=plain,args=-O,args=origin,local-port=1091,addresses=176.32.38.116,tfo=false,udp-relay=false
-俄罗斯L = external,exec=/usr/bin/ssr-local,args=-1,args=1092,args=-s,args=91.206.93.152,args=-p,args=12305,args=-m,args=dummy,args=-k,args=lncn.org 8jy,args=-o,args=plain,args=-O,args=origin,local-port=1092,addresses=91.206.93.152,tfo=false,udp-relay=false
 
 [Proxy Group]
-🚀 节点选择 = select,♻️ 自动选择,DIRECT,www.dongtaiwang.com 美国_1,www.dongtaiwang.com 美国_2,www.dongtaiwang.com 洛杉矶,俄罗斯A,俄罗斯B,俄罗斯C,俄罗斯D,俄罗斯E,俄罗斯F,俄罗斯G,俄罗斯H,俄罗斯I,俄罗斯J,俄罗斯K,俄罗斯L
-♻️ 自动选择 = url-test,www.dongtaiwang.com 美国_1,www.dongtaiwang.com 美国_2,www.dongtaiwang.com 洛杉矶,俄罗斯A,俄罗斯B,俄罗斯C,俄罗斯D,俄罗斯E,俄罗斯F,俄罗斯G,俄罗斯H,俄罗斯I,俄罗斯J,俄罗斯K,俄罗斯L,url = http://www.gstatic.com/generate_204,interval = 300,tolerance = 50
-🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,www.dongtaiwang.com 美国_1,www.dongtaiwang.com 美国_2,www.dongtaiwang.com 洛杉矶,俄罗斯A,俄罗斯B,俄罗斯C,俄罗斯D,俄罗斯E,俄罗斯F,俄罗斯G,俄罗斯H,俄罗斯I,俄罗斯J,俄罗斯K,俄罗斯L
-📲 电报信息 = select,🚀 节点选择,🎯 全球直连,www.dongtaiwang.com 美国_1,www.dongtaiwang.com 美国_2,www.dongtaiwang.com 洛杉矶,俄罗斯A,俄罗斯B,俄罗斯C,俄罗斯D,俄罗斯E,俄罗斯F,俄罗斯G,俄罗斯H,俄罗斯I,俄罗斯J,俄罗斯K,俄罗斯L
-Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,www.dongtaiwang.com 美国_1,www.dongtaiwang.com 美国_2,www.dongtaiwang.com 洛杉矶,俄罗斯A,俄罗斯B,俄罗斯C,俄罗斯D,俄罗斯E,俄罗斯F,俄罗斯G,俄罗斯H,俄罗斯I,俄罗斯J,俄罗斯K,俄罗斯L
-🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,www.dongtaiwang.com 美国_1,www.dongtaiwang.com 美国_2,www.dongtaiwang.com 洛杉矶,俄罗斯A,俄罗斯B,俄罗斯C,俄罗斯D,俄罗斯E,俄罗斯F,俄罗斯G,俄罗斯H,俄罗斯I,俄罗斯J,俄罗斯K,俄罗斯L
+🚀 节点选择 = select,♻️ 自动选择,DIRECT,www.dongtaiwang.com 美国,www.dongtaiwang.com 洛杉矶
+♻️ 自动选择 = url-test,www.dongtaiwang.com 美国,www.dongtaiwang.com 洛杉矶,url = http://www.gstatic.com/generate_204,interval = 300,tolerance = 50
+🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,www.dongtaiwang.com 美国,www.dongtaiwang.com 洛杉矶
+📲 电报信息 = select,🚀 节点选择,🎯 全球直连,www.dongtaiwang.com 美国,www.dongtaiwang.com 洛杉矶
+Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,www.dongtaiwang.com 美国,www.dongtaiwang.com 洛杉矶
+🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,www.dongtaiwang.com 美国,www.dongtaiwang.com 洛杉矶
 🎯 全球直连 = select,DIRECT,🚀 节点选择,♻️ 自动选择
 🛑 全球拦截 = select,REJECT,DIRECT
 🍃 应用净化 = select,REJECT,DIRECT
-🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,www.dongtaiwang.com 美国_1,www.dongtaiwang.com 美国_2,www.dongtaiwang.com 洛杉矶,俄罗斯A,俄罗斯B,俄罗斯C,俄罗斯D,俄罗斯E,俄罗斯F,俄罗斯G,俄罗斯H,俄罗斯I,俄罗斯J,俄罗斯K,俄罗斯L
+🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,www.dongtaiwang.com 美国,www.dongtaiwang.com 洛杉矶
 
 [Rule]
 # 本地/局域网地址
