@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Surge
-# 创建时间：2024-03-09 19:04:22
+# 创建时间：2024-03-15 16:01:37
 # 使用模版：V2RaySE 默认模版
 # 节点数量：2
 ####################################
@@ -30,7 +30,7 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 [Proxy]
 DIRECT = direct
 www.dongtaiwang.com 美国 = vmess,23.227.38.120,8080,username=969f1909-c0d3-4c30-813d-3aec5c838b7d,tls=false,vmess-aead=true,tls13=false,ws=true,ws-path=/1IKYjV0r/,ws-headers=host:"dongtaiwang17.dtku47.xyz",sni=23.227.38.120,skip-cert-verify=true,tfo=false,udp-relay=false
-www.dongtaiwang.com 洛杉矶 = ss,74.63.233.73,12300,encrypt-method=aes-256-gcm,password=dongtaiwang.com,tfo=false,udp-relay=false
+www.dongtaiwang.com 洛杉矶 = ss,64.31.55.51,12300,encrypt-method=aes-256-gcm,password=dongtaiwang.com,tfo=false,udp-relay=false
 
 [Proxy Group]
 🚀 节点选择 = select,♻️ 自动选择,DIRECT,www.dongtaiwang.com 美国,www.dongtaiwang.com 洛杉矶
