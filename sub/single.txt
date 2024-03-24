@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Surge
-# 创建时间：2024-03-19 19:55:34
+# 创建时间：2024-03-24 17:43:58
 # 使用模版：V2RaySE 默认模版
-# 节点数量：2
+# 节点数量：1
 ####################################
 
 [General]
@@ -29,20 +29,19 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 
 [Proxy]
 DIRECT = direct
-www.dongtaiwang.com 美国 = vmess,23.227.38.120,8080,username=969f1909-c0d3-4c30-813d-3aec5c838b7d,tls=false,vmess-aead=true,tls13=false,ws=true,ws-path=/1IKYjV0r/,ws-headers=host:"dongtaiwang17.dtku47.xyz",sni=23.227.38.120,skip-cert-verify=true,tfo=false,udp-relay=false
-www.dongtaiwang.com 洛杉矶 = ss,64.31.55.51,12300,encrypt-method=aes-256-gcm,password=dongtaiwang.com,tfo=false,udp-relay=false
+🇬🇧英国 英格兰 伦敦  DigitalOcean（1倍率）试用 = vmess,3.namesilo123.top,80,username=4b59fcc4-1ed0-4a7f-b31b-826fffccf6a0,tls=false,vmess-aead=true,tls13=false,ws=true,ws-path=/grdohhgrdh4hhhhhj?ed=2048,ws-headers=host:"uk.sanfen002.top",sni=3.namesilo123.top,skip-cert-verify=true,tfo=false,udp-relay=false
 
 [Proxy Group]
-🚀 节点选择 = select,♻️ 自动选择,DIRECT,www.dongtaiwang.com 美国,www.dongtaiwang.com 洛杉矶
-♻️ 自动选择 = url-test,www.dongtaiwang.com 美国,www.dongtaiwang.com 洛杉矶,url = http://www.gstatic.com/generate_204,interval = 300,tolerance = 50
-🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,www.dongtaiwang.com 美国,www.dongtaiwang.com 洛杉矶
-📲 电报信息 = select,🚀 节点选择,🎯 全球直连,www.dongtaiwang.com 美国,www.dongtaiwang.com 洛杉矶
-Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,www.dongtaiwang.com 美国,www.dongtaiwang.com 洛杉矶
-🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,www.dongtaiwang.com 美国,www.dongtaiwang.com 洛杉矶
+🚀 节点选择 = select,♻️ 自动选择,DIRECT,🇬🇧英国 英格兰 伦敦  DigitalOcean（1倍率）试用
+♻️ 自动选择 = url-test,🇬🇧英国 英格兰 伦敦  DigitalOcean（1倍率）试用,url = http://www.gstatic.com/generate_204,interval = 300,tolerance = 50
+🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,🇬🇧英国 英格兰 伦敦  DigitalOcean（1倍率）试用
+📲 电报信息 = select,🚀 节点选择,🎯 全球直连,🇬🇧英国 英格兰 伦敦  DigitalOcean（1倍率）试用
+Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,🇬🇧英国 英格兰 伦敦  DigitalOcean（1倍率）试用
+🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,🇬🇧英国 英格兰 伦敦  DigitalOcean（1倍率）试用
 🎯 全球直连 = select,DIRECT,🚀 节点选择,♻️ 自动选择
 🛑 全球拦截 = select,REJECT,DIRECT
 🍃 应用净化 = select,REJECT,DIRECT
-🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,www.dongtaiwang.com 美国,www.dongtaiwang.com 洛杉矶
+🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🇬🇧英国 英格兰 伦敦  DigitalOcean（1倍率）试用
 
 [Rule]
 # 本地/局域网地址
