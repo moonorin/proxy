@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Surge
-# 创建时间：2024-03-24 17:43:58
+# 创建时间：2024-03-24 17:47:53
 # 使用模版：V2RaySE 默认模版
-# 节点数量：1
+# 节点数量：44
 ####################################
 
 [General]
@@ -29,19 +29,62 @@ http-request https?:\/\/.*\.iqiyi\.com\/.*authcookie= script-path=https://raw.gi
 
 [Proxy]
 DIRECT = direct
-🇬🇧英国 英格兰 伦敦  DigitalOcean（1倍率）试用 = vmess,3.namesilo123.top,80,username=4b59fcc4-1ed0-4a7f-b31b-826fffccf6a0,tls=false,vmess-aead=true,tls13=false,ws=true,ws-path=/grdohhgrdh4hhhhhj?ed=2048,ws-headers=host:"uk.sanfen002.top",sni=3.namesilo123.top,skip-cert-verify=true,tfo=false,udp-relay=false
+请看官网教程 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+HK香港-1 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+HK香港-2 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+HK香港-3 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+HK香港-4 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+HK香港-5 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+HK香港-6 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+HK香港-7 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+HK香港-8 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+SG新加坡-1 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+SG新加坡-2 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+SG新加坡-3 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+SG新加坡-4 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+SG新加坡-5 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+SG新加坡-6 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+SG新加坡-7 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+SG新加坡-8 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+JP日本-1 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+JP日本-2 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+JP日本-3 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+JP日本-4 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+JP日本-5 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+JP日本-6 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+US美国-1 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+US美国-2 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+US美国-3 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+US美国-4 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+US美国-5 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+US美国-6 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+CA加拿大-1 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+CN台湾-1 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+CN台湾-2 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+AR阿根廷 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+HL荷兰 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+RU俄罗斯 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+GB英国 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+HU匈牙利 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+DE德国 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+TH泰国 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+CL智利 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+IN印度 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+MY马来西亚 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+VN越南 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
+NG尼日利亚 = trojan,jd.070429.xyz,2083,password=119cec19-8f8f-4bb7-86be-5568949d5818,skip-cert-verify=true,sni=jd.070429.xyz,tfo=false,udp-relay=false
 
 [Proxy Group]
-🚀 节点选择 = select,♻️ 自动选择,DIRECT,🇬🇧英国 英格兰 伦敦  DigitalOcean（1倍率）试用
-♻️ 自动选择 = url-test,🇬🇧英国 英格兰 伦敦  DigitalOcean（1倍率）试用,url = http://www.gstatic.com/generate_204,interval = 300,tolerance = 50
-🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,🇬🇧英国 英格兰 伦敦  DigitalOcean（1倍率）试用
-📲 电报信息 = select,🚀 节点选择,🎯 全球直连,🇬🇧英国 英格兰 伦敦  DigitalOcean（1倍率）试用
-Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,🇬🇧英国 英格兰 伦敦  DigitalOcean（1倍率）试用
-🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,🇬🇧英国 英格兰 伦敦  DigitalOcean（1倍率）试用
+🚀 节点选择 = select,♻️ 自动选择,DIRECT,请看官网教程,HK香港-1,HK香港-2,HK香港-3,HK香港-4,HK香港-5,HK香港-6,HK香港-7,HK香港-8,SG新加坡-1,SG新加坡-2,SG新加坡-3,SG新加坡-4,SG新加坡-5,SG新加坡-6,SG新加坡-7,SG新加坡-8,JP日本-1,JP日本-2,JP日本-3,JP日本-4,JP日本-5,JP日本-6,US美国-1,US美国-2,US美国-3,US美国-4,US美国-5,US美国-6,CA加拿大-1,CN台湾-1,CN台湾-2,AR阿根廷,HL荷兰,RU俄罗斯,GB英国,HU匈牙利,DE德国,TH泰国,CL智利,IN印度,MY马来西亚,VN越南,NG尼日利亚
+♻️ 自动选择 = url-test,请看官网教程,HK香港-1,HK香港-2,HK香港-3,HK香港-4,HK香港-5,HK香港-6,HK香港-7,HK香港-8,SG新加坡-1,SG新加坡-2,SG新加坡-3,SG新加坡-4,SG新加坡-5,SG新加坡-6,SG新加坡-7,SG新加坡-8,JP日本-1,JP日本-2,JP日本-3,JP日本-4,JP日本-5,JP日本-6,US美国-1,US美国-2,US美国-3,US美国-4,US美国-5,US美国-6,CA加拿大-1,CN台湾-1,CN台湾-2,AR阿根廷,HL荷兰,RU俄罗斯,GB英国,HU匈牙利,DE德国,TH泰国,CL智利,IN印度,MY马来西亚,VN越南,NG尼日利亚,url = http://www.gstatic.com/generate_204,interval = 300,tolerance = 50
+🌍 国外媒体 = select,🚀 节点选择,♻️ 自动选择,🎯 全球直连,请看官网教程,HK香港-1,HK香港-2,HK香港-3,HK香港-4,HK香港-5,HK香港-6,HK香港-7,HK香港-8,SG新加坡-1,SG新加坡-2,SG新加坡-3,SG新加坡-4,SG新加坡-5,SG新加坡-6,SG新加坡-7,SG新加坡-8,JP日本-1,JP日本-2,JP日本-3,JP日本-4,JP日本-5,JP日本-6,US美国-1,US美国-2,US美国-3,US美国-4,US美国-5,US美国-6,CA加拿大-1,CN台湾-1,CN台湾-2,AR阿根廷,HL荷兰,RU俄罗斯,GB英国,HU匈牙利,DE德国,TH泰国,CL智利,IN印度,MY马来西亚,VN越南,NG尼日利亚
+📲 电报信息 = select,🚀 节点选择,🎯 全球直连,请看官网教程,HK香港-1,HK香港-2,HK香港-3,HK香港-4,HK香港-5,HK香港-6,HK香港-7,HK香港-8,SG新加坡-1,SG新加坡-2,SG新加坡-3,SG新加坡-4,SG新加坡-5,SG新加坡-6,SG新加坡-7,SG新加坡-8,JP日本-1,JP日本-2,JP日本-3,JP日本-4,JP日本-5,JP日本-6,US美国-1,US美国-2,US美国-3,US美国-4,US美国-5,US美国-6,CA加拿大-1,CN台湾-1,CN台湾-2,AR阿根廷,HL荷兰,RU俄罗斯,GB英国,HU匈牙利,DE德国,TH泰国,CL智利,IN印度,MY马来西亚,VN越南,NG尼日利亚
+Ⓜ️ 微软服务 = select,🎯 全球直连,🚀 节点选择,请看官网教程,HK香港-1,HK香港-2,HK香港-3,HK香港-4,HK香港-5,HK香港-6,HK香港-7,HK香港-8,SG新加坡-1,SG新加坡-2,SG新加坡-3,SG新加坡-4,SG新加坡-5,SG新加坡-6,SG新加坡-7,SG新加坡-8,JP日本-1,JP日本-2,JP日本-3,JP日本-4,JP日本-5,JP日本-6,US美国-1,US美国-2,US美国-3,US美国-4,US美国-5,US美国-6,CA加拿大-1,CN台湾-1,CN台湾-2,AR阿根廷,HL荷兰,RU俄罗斯,GB英国,HU匈牙利,DE德国,TH泰国,CL智利,IN印度,MY马来西亚,VN越南,NG尼日利亚
+🍎 苹果服务 = select,🚀 节点选择,🎯 全球直连,请看官网教程,HK香港-1,HK香港-2,HK香港-3,HK香港-4,HK香港-5,HK香港-6,HK香港-7,HK香港-8,SG新加坡-1,SG新加坡-2,SG新加坡-3,SG新加坡-4,SG新加坡-5,SG新加坡-6,SG新加坡-7,SG新加坡-8,JP日本-1,JP日本-2,JP日本-3,JP日本-4,JP日本-5,JP日本-6,US美国-1,US美国-2,US美国-3,US美国-4,US美国-5,US美国-6,CA加拿大-1,CN台湾-1,CN台湾-2,AR阿根廷,HL荷兰,RU俄罗斯,GB英国,HU匈牙利,DE德国,TH泰国,CL智利,IN印度,MY马来西亚,VN越南,NG尼日利亚
 🎯 全球直连 = select,DIRECT,🚀 节点选择,♻️ 自动选择
 🛑 全球拦截 = select,REJECT,DIRECT
 🍃 应用净化 = select,REJECT,DIRECT
-🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,🇬🇧英国 英格兰 伦敦  DigitalOcean（1倍率）试用
+🐟 漏网之鱼 = select,🚀 节点选择,🎯 全球直连,♻️ 自动选择,请看官网教程,HK香港-1,HK香港-2,HK香港-3,HK香港-4,HK香港-5,HK香港-6,HK香港-7,HK香港-8,SG新加坡-1,SG新加坡-2,SG新加坡-3,SG新加坡-4,SG新加坡-5,SG新加坡-6,SG新加坡-7,SG新加坡-8,JP日本-1,JP日本-2,JP日本-3,JP日本-4,JP日本-5,JP日本-6,US美国-1,US美国-2,US美国-3,US美国-4,US美国-5,US美国-6,CA加拿大-1,CN台湾-1,CN台湾-2,AR阿根廷,HL荷兰,RU俄罗斯,GB英国,HU匈牙利,DE德国,TH泰国,CL智利,IN印度,MY马来西亚,VN越南,NG尼日利亚
 
 [Rule]
 # 本地/局域网地址
