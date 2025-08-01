@@ -1,0 +1,4 @@
+DOMAIN,suki-kira.com
+DOMAIN,5ch.net
+DOMAIN,ul.hirosaki-u.ac.jp
+DOMAIN,www.digital.archives.go.jp
