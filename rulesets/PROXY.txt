@@ -12,3 +12,4 @@ DOMAIN,meteoblue.com
 DOMAIN,library.lol
 DOMAIN,libgen
 DOMAIN,v2rayse.com
+DOMAIN-KEYWORD,dmhy
